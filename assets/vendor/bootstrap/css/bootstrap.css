@@ -6689,7 +6689,7 @@ textarea.form-control-lg {
 }
 
 .justify-content-center {
-  justify-content: center !important;
+  justify-content: left !important;
 }
 
 .justify-content-between {
