@@ -15,7 +15,12 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -28,13 +33,13 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <!--Jquery-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--Floating WhatsApp css-->
+<link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+<!--Floating WhatsApp javascript-->
+<script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
 
-  <!-- =======================================================
-  * Template Name: Arsha - v4.3.0
-  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -44,14 +49,14 @@
     <div class="container d-flex align-items-center">
 
      <!-- <h1 class="logo me-auto"><a href="index.html">SCB</a></h1>-->
-      <!-- Uncomment below if you prefer to use an image logo -->
+  
        <a href="index.html" class="logo me-auto"><img style="border-radius: 50px;" src="assets/img/IMG-20210912-WA0001.jpg" alt="" class="img-fluid"></a>
 
       <nav id="navbar" class="navbar">
       <ul>
         
         
-          <li><a class="getstarted scrollto" href="index.html#destination">Back to home</a></li>
+          <li><a href="index.html#destination">Back to home</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -69,7 +74,7 @@
           <li><a href="index.html">Home</a></li>
           <li>detination Details</li>
         </ol>
-        <h2>A closer look at Mgahinga</h2>
+        <h2>A closer look at Mgahinga.</h2>
 
       </div>
     </section><!-- End Breadcrumbs -->
@@ -98,7 +103,7 @@
 
               </div>
               <div class="swiper-pagination"></div>
-                        <a href="bookings.html"><button>book now</button></a>
+                        <a href="bookings.html"><button style="border-color: dodgerblue;">book now</button></a>
       
       </nav><!-- .navbar --></center>
             </div>
@@ -108,7 +113,7 @@
             <div class="portfolio-info">
               
               <ul>
-                <li><strong>Category</strong>: Others</li>
+                <li><strong>Category</strong>: Others.</li>
                 
               </ul>
            
@@ -126,132 +131,203 @@
 
   </main><!-- End #main -->
 
- 
-<footer id="footer">
+ <!-- ======= Footer ======= -->
+ <footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <!--<h4><img style="float: left;width: 10%;" src="assets/img/loader.ico"> 
+</h4><br>-->
+       
+           <h4> <strong>Phone:</strong></h4>
+             <a style="padding-bottom: 0px;border-bottom: 0px;margin-bottom: 0px;" href="tel:0393249630">+256 393 249 630</a><br><br>
+             <a style="padding-bottom: 0px;border-bottom: 0px;margin-bottom: 0px;" href="tel:0705078394">+256 705 078 394</a><br><br>
+             <a style="padding-bottom: 0px;border-bottom: 0px;margin-bottom: 0px;" href="tel:0705078394">+256 789 671 811</a><br><br>
+            <h4><strong>Email:</strong></h4>
+            <a href="mailto:info@scbtoursandtravel.com"><p>info@scbtoursandtravel.com</p></a>
+            <p style="padding-top: 0px;border-top: 0px;margin-top: 0px;" style="text-align: left;" >P.O.Box: 104951</p>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+          <h4>Useful Links</h4>
+          <a href="#hero"><i class="bx bx-chevron-right"></i> Home</a></li><br>
+          <a href="carhirerates.html"><i class="bx bx-chevron-right"></i> Car hire rates</a></li><br>
+          <a href="Bookings.html"> <i class="bx bx-chevron-right"></i> Bookings</a></li><br>
+          <a href="Gallery.html"> <i class="bx bx-chevron-right"></i> Gallery</a></li>  <br>          
+           
+        </div>
+
+       <!--<div class="col-lg-3 col-md-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bx bx-chevron-right"></i> <a href="#"> </a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#"> </a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#"> </a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#"></a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#"> </a></li>
+          </ul </div>-->
+
+        <!--<div class="col-lg-3 col-md-6 footer-links">
+          <h4>Sign Up</h4>
+          <div class="flex-column">
+            <input  style="width: 200px;background-color: red;height: 30px;" type="email" name="your email" placeholder="Your email">
+            <input  style="width: 200px;background-color: red;height: 30px;" type="email" name="your email" placeholder="Your email"></div>-->
+            <div class="col-md-4">
+                              <h4>Subscribe</h4>
+                            <div id="footer_signup">
+                                  <div id="email">
+                                        <form action="https://formsubmit.co/info@scbtoursandtravel.com" method="POST"class="php-email-form">
+                                              <p><input  class="form-control" type="hidden" name="_next" value="https://scbtoursandtravel.com/thanku.html"></p>
+                                          <input style="width: 225px;" type="text" placeholder="Enter email address" name="email" id="address" data-validate="validate(required, email)"/>
+                                          <button style=" border-color: dodgerblue;width: 100px;" type="submit">Subscribe</button>
+                                          <span id="result" class="section-description"></span>
+                                      </form> 
+                                  </div>
+                              </div> 
+                              <p style="padding-top: 0px;border-top: 0px;margin-top: 0px;">Subscribe to our news letter to recieve latest updates on what is going on</p> 
+             <div class="col-md-8 footer-links">
+          <h4 style="padding-bottom: 0px;border-bottom: 0px;margin-bottom: 0px;">Our Social Networks</h4>
+          <p style="padding-top: 0px;border-top: 0px;margin-top: 0px;">You can also contact Us via our social media platforms</p>
+           <div class="social-links mt-3">
+            <a href="https://mobile.twitter.com/scbtourstravel"class="twitter"><i class="bx bxl-twitter"></i></a>
+
+            <a href="https://www.facebook.com/scbtoursandtravel/" class="facebook"><i class="bx bxl-facebook"></i></a>
+
+            <a href="https://www.instagram.com/scbtoursandtravel/?hl=en" class="instagram"><i class="bx bxl-instagram"></i></a>
+
+            <a href="https://www.linkedin.com/in/scb-tours-and-travel-3b3205161" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://www.youtube.com/channel/UC2eZWi6wC2TYPmHiIkg6sog" class="youtube"><i class="bx bxl-youtube"></i></a>
+            </div></div></div>
+            
+            <div class="col-md-3 footer-links">
+              <h4>Our Partners</h4>
+              <a href=""><i class="bx bx-chevron-right"></i>TourRaddar</a><br>
+              <a href=""><i class="bx bx-chevron-right"></i>Trip Advisor</a><br>
+              <a href=""><i class="bx bx-chevron-right"></i>Uganda Tourism Board</a><br>
+              <a href=""><i class="bx bx-chevron-right"></i>Uganda Wildlife Authority</a><br>
+              <a href=""><i class="bx bx-chevron-right"></i>United states Tour Operator's Association</a><br>
+            </div>
 
   
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4><img style="float: left;width: 10%;" src="assets/img/loader.ico"> 
-</h4><br>
-           <!-- <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>-->
-              <strong>Phone:</strong><a href="tel:0393249630"><p>+256 393 249 630</p></a>
-               <a href="tel:0705078394"><p>+256 705 078 394</p></a>
-              <strong>Email:</strong> <a href="mailto:scbtoursandtravel@gmail.com"><p>scbtoursandtravel@gmail.com</p></a>
-              
-            </p>
-          </div>
-
-           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              
-               <li><i class="bx bx-chevron-right"></i> <a href="carhirerates.html">Car hire rates</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="bookings.html">Bookings</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="gallery.html">Gallery</a></li>
-            </ul>
-          </div>
-
-
-         
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Social Networks</h4>
-            <p>You can also contact Us via our social media platforms</p>
-            <div class="social-links mt-3">
-              <a href="https://mobile.twitter.com/scbtourstravel"class="twitter"><i class="bx bxl-twitter"></i></a>
-
-              <a href="https://www.facebook.com/scbtoursandtravel/" class="facebook"><i class="bx bxl-facebook"></i></a>
-
-              <a href="https://www.instagram.com/scbtoursandtravel/?hl=en" class="instagram"><i class="bx bxl-instagram"></i></a>
-
-              <a href="https://www.linkedin.com/in/scb-tours-and-travel-3b3205161" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-          </div>
 
 
 
-
-            <h4>Our Partners</h4>
+<!--<h4>Our Partners</h4>
 <div class="container cliens  section-bg">
 
-        <div class="row" data-aos="zoom-in">
-           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img style="padding-left: 0;" src="images/uwa.jpg" class="img-fluid" alt="">
-
-
-        </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img style="padding-left: 0;" src="images/utoa.png" class="img-fluid" alt="">            
-          </div>
-
-          
-   <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img style="padding-left: 0;" src="images/ustoa.jpg" class="img-fluid" alt="">
-          </div>
-
-           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img style="padding-left: 0;" src="images/utb.png" class="img-fluid" alt="">
-
-
-        </div>
+      <div class="row" data-aos="zoom-in">
          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img style="padding-left: 0;" src="images/tripadvisor.png" class="img-fluid" alt="">
-          </div>
+          <a href="">Uganda Wildlife Authority</a>
 
-      
+
+      </div>
 
         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img style="padding-left: 0;" src="images/bradt.png" class="img-fluid" alt=""> </div>
+          <img style="padding-left: 0;" src="images/utoa.png" class="img-fluid" alt="">            
+        </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img style="padding-left: 0;" src="images/tourradar.png" class="img-fluid" alt="">
-          </div>
+        
+ <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img style="padding-left: 0;" src="images/ustoa.jpg" class="img-fluid" alt="">
+        </div>
 
-         
+         <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img style="padding-left: 0;" src="images/utb.png" class="img-fluid" alt="">
+
+
+      </div>
+       <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img style="padding-left: 0;" src="images/tripadvisor.png" class="img-fluid" alt="">
+        </div>
+
+    
+
+      <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img style="padding-left: 0;" src="images/bradt.png" class="img-fluid" alt=""> </div>
+
+        <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+          <img style="padding-left: 0;" src="images/tourradar.png" class="img-fluid" alt="">-->
+        </div>
+
+       
 </div>
 </div></div>
 </div>
-  </div>
- 
+</div>
 
 
 
 
-    <div class="container footer-bottom clearfix">
-      
-     <div style="float: left;font-size: 1.6vw;" class="credits">
-       
-        Designed by <a href="https://kdjoshua.github.io/KnD/">KnDjoshua</a>
-      </div>
+
+
+  <div class="container-fluid footer-bottom clearfix">
+    
+   <div style="float: left;">
+     
+      Designed by <a href="https://kdjoshua.github.io/KnD/" style="color:black;">KnDjoshua</a>
     </div>
+  </div>
+
   </footer><!-- End Footer -->
 
- <div id="preloader"></div>
 
-    <a href="https://wa.me/[+256789671811]" style="width: auto;height: 40px;background-color: green;" class="back-to-top d-flex align-items-center justify-content-center">
-    <i style="color: white;padding: 10px;font-size: 30px;" class="fa fa-whatsapp  "></i><small style="padding-right: 10px;">Message Us</small></a>
+<div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+ <!-- <a href="https://wa.me/[+256789671811]" style="width: auto;height: 40px;background-color: green;" class="back-to-top d-flex align-items-center justify-content-center">
+  <i style="color: white;padding: 10px;font-size: 30px;" class="fa fa-whatsapp "></i><small style="padding-right: 10px;">Message Us</small></a>-->
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+
+
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+
+
+<!--<div id="myDiv"></div>
+<script type="text/javascript">
+$(function () {$("#myDiv").floatingwhatsApp({phone: "+256 787933997"});
+});
+</script>-->
+
+
+<!--Div where the WhatsApp will be rendered-->
+
+
+
+
+<div id="WAButton"></div>
+
+
+
+
 
 </body>
 
-</html>
+<script type="text/javascript">
+$(function() {
+$('#WAButton').floatingWhatsApp({
+  phone: '+256789671811', //WhatsApp Business phone number International format-
+  //Get it with Toky at https://toky.co/en/features/whatsapp.
+  headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+  popupMessage: 'Hello, how can we help you?', //Popup Message
+  showPopup: true, //Enables popup display
+  buttonImage: '<img src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/whatsapp.svg" />', //Button Image
+  //headerColor: 'crimson', //Custom header color
+  //backgroundColor: 'crimson', //Custom background button color
+  position: "right"    
+});
+});
 
+</script>
+</html>
